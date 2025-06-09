@@ -1,14 +1,25 @@
 import React from "react";
-import { FaGem } from "react-icons/fa";
+import PrestationCard from "./PrestationCard";
 
 const Luxury = () => (
-  <section className="py-16 px-4 bg-gray-900 flex flex-col items-center text-center">
-    <FaGem className="text-4xl text-cyan-400 mb-4 animate-bounce" />
-    <h2 className="text-2xl md:text-3xl font-bold text-white mb-2">Prestations de Luxe</h2>
-    <p className="text-gray-300 max-w-xl mb-4">
-      Services haut de gamme, partenaires d'exception et expériences uniques pour une clientèle privilégiée.
-    </p>
-  </section>
+  <PrestationCard
+    title="Prestations de Luxe"
+    description="Services haut de gamme, partenaires d'exception et expériences uniques pour une clientèle privilégiée qui recherche l'excellence dans chaque détail et un service irréprochable."
+    iconName="gem"
+    color="cyan"
+    features={[
+      "Accès à des lieux exclusifs et privés",
+      "Service de conciergerie de luxe 24/7",
+      "Expériences gastronomiques avec chefs étoilés",
+      "Transport privé (hélicoptère, jet, limousine)",
+      "Service de sécurité discret et professionnel",
+      "Coordination complète et assistance personnelle dédiée"
+    ]}
+    ctaText="Découvrir nos services exclusifs"
+    ctaLink="/contact?service=luxury"
+    imageUrl="/images/luxury.jpg"
+    reversed={true}
+  />
 );
 
 export default Luxury;
