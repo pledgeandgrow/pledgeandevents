@@ -20,7 +20,7 @@ const ContactHero = () => {
     }, 3000);
     
     return () => clearInterval(iconInterval);
-  }, []);
+  }, [icons.length]);
 
   return (
     <section className="py-16 px-4 sm:py-20 bg-gray-900 flex flex-col items-center text-center relative overflow-hidden">

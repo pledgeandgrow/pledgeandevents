@@ -2,12 +2,13 @@
 
 import React, { useState, useEffect } from "react";
 import { FaUserTie, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import Image from "next/image";
 
 const team = [
   {
     name: "Noah PLA",
     role: "CEO & Founder",
-    bio: "Expert en organisation d'événements de luxe avec plus de 10 ans d'expérience dans le secteur. Spécialisé dans les mariages haut de gamme et les événements corporate VIP.",
+    bio: "Expert en organisation d&apos;événements de luxe avec plus de 10 ans d&apos;expérience dans le secteur. Spécialisé dans les mariages haut de gamme et les événements corporate VIP.",
     avatar: "https://ui-avatars.com/api/?name=Noah+PLA&background=1a202c&color=fff&size=128&rounded=true",
     linkedin: "https://linkedin.com/in/noahpla",
     email: "noah@pledgeandevents.com",
@@ -62,7 +63,7 @@ const AboutTeam = () => {
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-4">Notre équipe</h2>
           <div className="w-24 h-1 bg-gradient-to-r from-cyan-500 to-pink-500 mx-auto mb-6"></div>
           <p className="text-xl text-gray-300 max-w-2xl mx-auto mb-12">
-            Une équipe passionnée d'experts en événementiel, dédiée à la réussite de chaque projet, de la conception à la réalisation.
+            Une équipe passionnée d&apos;experts en événementiel, dédiée à la réussite de chaque projet, de la conception à la réalisation.
           </p>
         </div>
         
@@ -74,9 +75,11 @@ const AboutTeam = () => {
               style={{ transitionDelay: `${index * 100}ms` }}
             >
               <div className="flex flex-col items-center text-center">
-                <img 
+                <Image 
                   src={member.avatar} 
                   alt={member.name} 
+                  width={96}
+                  height={96}
                   className="w-24 h-24 rounded-full mb-4 border-4 border-gray-900 shadow-lg" 
                 />
                 <h3 className="text-xl font-bold text-white mb-1">{member.name}</h3>

@@ -4,7 +4,7 @@ import React, { useEffect, useRef, useState } from "react";
 const eventTypes = [
   {
     title: "Réservations",
-    description: "Gestion complète de vos réservations pour tous types d'événements.",
+    description: "Gestion complète de vos réservations pour tous types d&apos;événements.",
     icon: "🎟️",
     color: "from-cyan-500 to-blue-500",
   },
@@ -78,7 +78,7 @@ const EventTypes = () => {
       <div className="relative z-10">
         <h2 className="text-3xl md:text-4xl font-bold text-center mb-4 text-white">Nos Spécialités</h2>
         <p className="text-gray-300 text-center max-w-2xl mx-auto mb-12 text-lg">
-          Découvrez notre expertise dans l'organisation d'événements d'exception
+          Découvrez notre expertise dans l&apos;organisation d&apos;événements d&apos;exception
         </p>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 max-w-6xl mx-auto p-4">

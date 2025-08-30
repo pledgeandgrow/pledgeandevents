@@ -42,7 +42,7 @@ const ContactCTA = () => {
         </div>
         
         <h2 className="text-3xl md:text-4xl font-bold mb-4 leading-tight">
-          Prêt à organiser un <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">événement d'exception</span> ?
+          Prêt à organiser un <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-blue-400">événement d&apos;exception</span> ?
         </h2>
         
         <p className="text-lg md:text-xl mb-8 text-gray-300 max-w-2xl mx-auto leading-relaxed">

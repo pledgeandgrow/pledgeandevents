@@ -2,7 +2,6 @@
 import React, { useEffect, useState } from "react";
 import { FaGem, FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
-import Image from "next/image";
 
 const HomeHero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -26,7 +25,7 @@ const HomeHero = () => {
         </span>
         
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold text-white mb-6 tracking-tight drop-shadow-lg leading-tight">
-          L'art de l'événement <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400">d'exception</span>
+          L&apos;art de l&apos;événement <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-pink-400">d&apos;exception</span>
         </h1>
         
         <p className="text-lg sm:text-xl md:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">

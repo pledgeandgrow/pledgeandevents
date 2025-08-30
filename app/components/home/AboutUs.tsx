@@ -1,12 +1,11 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
 import { FaHandshake, FaStar, FaUserTie, FaGem } from "react-icons/fa";
-import Image from "next/image";
 
 const features = [
   {
     title: "Expérience",
-    description: "Plus de 10 ans d'expérience dans l'événementiel de luxe",
+    description: "Plus de 10 ans d&apos;expérience dans l&apos;événementiel de luxe",
     icon: <FaStar className="text-yellow-400 text-xl" />,
     color: "bg-gradient-to-br from-yellow-500 to-amber-600"
   },
@@ -66,10 +65,10 @@ const AboutUs = () => {
         
         <div className="mb-12 space-y-6">
           <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-            Fondée par des passionnés d'événementiel, Pledge and Events est une agence dédiée à l'organisation d'événements d'exception. Notre équipe d'experts transforme vos idées en expériences inoubliables.
+            Fondée par des passionnés d&apos;événementiel, Pledge and Events est une agence dédiée à l&apos;organisation d&apos;événements d&apos;exception. Notre équipe d&apos;experts transforme vos idées en expériences inoubliables.
           </p>
           <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-            Nous mettons un point d'honneur à offrir un service sur-mesure et discret, adapté aux exigences les plus élevées. Chaque détail compte pour créer des moments qui vous ressemblent.
+            Nous mettons un point d&apos;honneur à offrir un service sur-mesure et discret, adapté aux exigences les plus élevées. Chaque détail compte pour créer des moments qui vous ressemblent.
           </p>
         </div>
         
@@ -91,9 +90,9 @@ const AboutUs = () => {
         
         <div className="mt-16 p-6 bg-gray-700 rounded-xl border border-gray-600 shadow-lg">
           <blockquote className="italic text-gray-300 text-lg">
-            "Notre mission est de créer des événements qui dépassent vos attentes et laissent une impression durable."
+            &quot;Notre mission est de créer des événements qui dépassent vos attentes et laissent une impression durable.&quot;
           </blockquote>
-          <p className="mt-4 text-white font-semibold">- L'équipe Pledge and Events</p>
+          <p className="mt-4 text-white font-semibold">- L&apos;équipe Pledge and Events</p>
         </div>
       </div>
     </section>

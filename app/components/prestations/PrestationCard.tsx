@@ -2,6 +2,7 @@
 
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import { FaArrowRight, FaHeart, FaMicrophone, FaCrown, FaGlassCheers, FaBuilding, FaGem } from "react-icons/fa";
 import { GiDiamonds } from "react-icons/gi";
 
@@ -158,9 +159,11 @@ const PrestationCard = ({
           <div className={`w-full lg:w-1/2 ${isVisible ? 'animate-fadeIn' : 'opacity-0'}`} style={{ animationDelay: '200ms' }}>
             <div className={`rounded-2xl overflow-hidden border ${colorStyles.border} shadow-xl ${colorStyles.shadow} aspect-[4/3] relative`}>
               {imageUrl ? (
-                <img 
+                <Image 
                   src={imageUrl} 
                   alt={title} 
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
                   className="w-full h-full object-cover"
                 />
               ) : (

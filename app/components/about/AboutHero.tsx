@@ -58,7 +58,7 @@ const AboutHero = () => {
           className="text-xl text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed"
           variants={itemVariants}
         >
-          Depuis notre création, nous sommes spécialisés dans l'organisation d'événements de prestige qui transforment vos rêves en réalités mémorables. Notre expertise couvre un large éventail d'occasions, des mariages somptueux aux conférences professionnelles, en passant par les privatisations VIP, les soirées exclusives et les événements entrepreneuriaux.
+          Depuis notre création, nous sommes spécialisés dans l&apos;organisation d&apos;événements de prestige qui transforment vos rêves en réalités mémorables. Notre expertise couvre un large éventail d&apos;occasions, des mariages somptueux aux conférences professionnelles, en passant par les privatisations VIP, les soirées exclusives et les événements entrepreneuriaux.
         </motion.p>
         
         <motion.div 
@@ -68,7 +68,7 @@ const AboutHero = () => {
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-xl border border-gray-700/50 shadow-lg hover:shadow-cyan-900/20 transition-all duration-300 hover:-translate-y-1">
             <FaStar className="text-3xl text-cyan-400 mb-3 mx-auto" />
             <h3 className="text-lg font-bold text-white mb-2">Luxe</h3>
-            <p className="text-gray-400 text-sm">Des prestations haut de gamme pour des événements d'exception.</p>
+            <p className="text-gray-400 text-sm">Des prestations haut de gamme pour des événements d&apos;exception.</p>
           </div>
           
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-xl border border-gray-700/50 shadow-lg hover:shadow-pink-900/20 transition-all duration-300 hover:-translate-y-1">
@@ -80,7 +80,7 @@ const AboutHero = () => {
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-xl border border-gray-700/50 shadow-lg hover:shadow-yellow-900/20 transition-all duration-300 hover:-translate-y-1">
             <FaAward className="text-3xl text-yellow-400 mb-3 mx-auto" />
             <h3 className="text-lg font-bold text-white mb-2">Expérience</h3>
-            <p className="text-gray-400 text-sm">Une équipe chevronnée avec des années d'expertise événementielle.</p>
+            <p className="text-gray-400 text-sm">Une équipe chevronnée avec des années d&apos;expertise événementielle.</p>
           </div>
           
           <div className="bg-gradient-to-br from-gray-800 to-gray-900 p-6 rounded-xl border border-gray-700/50 shadow-lg hover:shadow-green-900/20 transition-all duration-300 hover:-translate-y-1">
@@ -94,8 +94,8 @@ const AboutHero = () => {
           className="text-lg text-gray-300 font-light italic max-w-2xl mx-auto mt-8 border-t border-gray-800 pt-6"
           variants={itemVariants}
         >
-          <p>"L'excellence événementielle, portée par la passion et le souci du détail."</p>
-          <p className="text-sm text-gray-500 mt-2">— L'équipe Pledge and Events</p>
+          <p>&quot;L&apos;excellence événementielle, portée par la passion et le souci du détail.&quot;</p>
+          <p className="text-sm text-gray-500 mt-2">— L&apos;équipe Pledge and Events</p>
         </motion.div>
       </motion.div>
     </section>
